@@ -25,7 +25,7 @@ include('../config/config.php');
                 CURLOPT_CUSTOMREQUEST => "GET",
                 CURLOPT_HTTPHEADER => array(
                   "Content-Type: application/json",
-                  "Authorization: Bearer FLWSECK_TEST-13906a727d84ceecf91532ef06a09104-X"
+                  "Authorization: Bearer FLWSECK-35b1640dfc57f82b5365f7b73b4886d2-X"
                 ),
               ));
               
@@ -44,7 +44,7 @@ include('../config/config.php');
                 {
                     // insert transaction in db here
                     $today = date('y-m-d');
-                        $transactionQuery = mysqli_query($con,"INSERT INTO 
+                        $transactionQuery = mysqli_query($conn,"INSERT INTO 
                         `tbltransactions`(`transactionCode`, `ClientId`, `Amount`, `startDate`, `endData`, `Status`) 
                         VALUES ('$txid','$email','$amountToPay','$today','$NewDate2','$status')");
 
