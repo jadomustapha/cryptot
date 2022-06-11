@@ -42,36 +42,31 @@
         justify-content:space-between;
         padding: 2rem 2rem;
     }
-       .main-card .card{ margin:5px;}
-    .main-card .card .card-content{
-        margin:auto;
-        width:90%;
-        margin-top:10px;
-        /* background: #000; */
-        font-family: sans serif;
-        height: 30vh;
-    }
-    /* .card .card-footer{
-        position: absolute;
-        bottom:0px;
-        margin:auto;
-    } */
-    @media screen and (max-width:990px) {
-        #bs-example-navbar-collapse-1 .navbar-nav li{
-            background: #000;
+       .main-card .card{ margin:5px;background:rgba(0,0,10,.5);}
+       .main-card .card .card-content{
+           margin:auto;
+           width:90%;
+           margin-top:10px;
+           /* background: #000; */
+           font-family: sans serif;
+           height: 30vh;
         }
-        #bs-example-navbar-collapse-1 .navbar-nav li a h3{
-            color:white;
+        /* .card .card-footer{
+            position: absolute;
+            bottom:0px;
+            margin:auto;
+        } */
+        @media screen and (max-width:990px) {
+            #bs-example-navbar-collapse-1 .navbar-nav li{
+                background: #000;
+            }
+            #bs-example-navbar-collapse-1 .navbar-nav li a h3{
+                color:white;
+            }
+            
         }
-        
-    }
-    @media screen and (max-width:750px) {
-         .home-products{
-            /* display: grid;
-            grid-template-columns: 1fr;
-            grid-gap: 3; */
-        }
-    }
+
+    .card:hover { background: rgba(0,0,10,.8);}
 </style>
 </head>
 <body >
@@ -105,7 +100,7 @@
     <section class="main-heading" id="home">
         <div class="overlay" style="background-image:url(./images/globe.jpg);">
             <div class="main-card" style="margin:auto;">
-                <div class="card" style="background:rgba(0,0,10,.5);width:60vh;height:40vh; border-radius:5px; position:relative;">
+                <div class="card" style="width:60vh;height:40vh; border-radius:5px; position:relative;">
                     <div class="card-content">
                         <h2>PC Maintenance</h2>
                         <p>
@@ -116,7 +111,7 @@
                         <a href="#" class="btn btn-primary" style="width:90%;">Apply Now</a>
                     </div>
                 </div>
-                <div class="card" style="background:rgba(0,0,10,.5);width:60vh;height:40vh; border-radius:5px; position:relative;">
+                <div class="card" style="width:60vh;height:40vh; border-radius:5px; position:relative;">
                     <div class="card-content">
                         <h2>Internations</h2>
                         <p>
@@ -127,7 +122,7 @@
                         <a href="#" class="btn btn-primary" style="width:90%;">Apply Now</a>
                     </div>
                 </div>
-                <div class="card" style="background:rgba(0,0,10,.5);width:60vh;height:40vh; border-radius:5px; position:relative;">
+                <div class="card" style="width:60vh;height:40vh; border-radius:5px; position:relative;">
                     <div class="card-content">
                         <h2>Video graphy</h2>
                         <p>
@@ -138,7 +133,7 @@
                         <a href="#" class="btn btn-primary" style="width:90%;">Apply Now</a>
                     </div>
                 </div>
-                <div class="card" style="background:rgba(0,0,10,.5);width:60vh;height:40vh; border-radius:5px; position:relative;">
+                <div class="card" style="width:60vh;height:40vh; border-radius:5px; position:relative;">
                     <div class="card-content">
                         <h2>Photo Editting</h2>
                         <p>
@@ -153,7 +148,7 @@
             </div>
             <!-- other section of services -->
  <div class="main-card" style="margin:auto;">
-             <div class="card" style="background:rgba(0,0,10,.5);width:60vh;height:40vh; border-radius:5px; position:relative;">
+             <div class="card" style="width:60vh;height:40vh; border-radius:5px; position:relative;">
                     <div class="card-content">
                         <h2>Programming</h2>
                         <p>
@@ -165,7 +160,7 @@
                     </div>
                 </div>
   
-           <div class="card" style="background:rgba(0,0,10,.5);width:60vh;height:40vh; border-radius:5px; position:relative;">
+           <div class="card" style="width:60vh;height:40vh; border-radius:5px; position:relative;">
                     <div class="card-content">
                         <h2>Irembo services</h2>
                         <p>
@@ -177,7 +172,7 @@
                     </div>
                 </div>
 
-                <div class="card" style="background:rgba(0,0,10,.5);width:60vh;height:40vh; border-radius:5px; position:relative;">
+                <div class="card" style="width:60vh;height:40vh; border-radius:5px; position:relative;">
                     <div class="card-content">
                         <h2>Home taxes</h2>
                         <p>
@@ -188,7 +183,7 @@
                         <a href="#" class="btn btn-primary" style="width:90%;">Apply Now</a>
                     </div>
                 </div>
-                <div class="card" style="background:rgba(0,0,10,.5);width:60vh;height:40vh; border-radius:5px; position:relative;">
+                <div class="card" style="width:60vh;height:40vh; border-radius:5px; position:relative;">
                     <div class="card-content">
                         <h2>PC Maintenance</h2>
                         <p>

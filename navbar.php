@@ -17,7 +17,6 @@
                     <li><a href="index.php" class="page-scroll"><h3>Home</h3></a></li>
                     <li><a href="product.php"><h3>Products</h3></a></li>
                     <li><a href="services.php" class="page-scroll"><h3>Services</h3></a></li>
-                    <!-- <li><a href="news.php"><h3>Hot News</h3></a></li> -->
                     <li><a href="signin.php"><h3>Login</h3></a></li>
                     <li><a href="#two" class="page-scroll"><h3>About</h3></a></li>
                 </ul>
