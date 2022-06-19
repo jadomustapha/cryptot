@@ -2,6 +2,6 @@
 define("host","localhost");
 define("user","root");
 define("pass","");
-define("db","newsfeed");
+define("db","crypto");
 $conn = mysqli_connect(host,user,pass,db);
 // print $conn? 1 : 0 ;

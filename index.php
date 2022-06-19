@@ -95,15 +95,23 @@
                     <div class="col-md-8 col-sm-8 text-center">
                         <h1 class="main-heading-title"><span class="main-element themecolor" data-elements="Oline Services, Buy your Products, We are here for you"></span></h1>
                         <h1 class="main-heading-title"><span class="main-element themecolor" data-elements="Crypto Technology Center,CTC"></span></h1>
-                        <p class="main-heading-text">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,<br/>cum soluta nobis est eligendi optio cumque nihil impedit quo facilis</p>
+                        <p class="main-heading-text">
+                            <h3 style="padding:4rem;">
+                                Welcome to Crypto Technology Center: We are here for you! <br>
+                                Come And work with us.
+                            </h3>
+                        </p>
                 
                         <div class="btn-bar">
                         <a href="signin.php" class="btn btn-custom theme_background_color">Ge Started</a>
-                        <a href="#" class="btn btn-custom-outline">Contact Us</a>
+                        <a href="#eight" class="btn btn-custom-outline">Contact Us</a>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 text-center" >
-                       <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, beatae.</h1>
+                       <h1 class="text-left">
+                           We provide different services including photo printing, video production, 
+                           Internaships, teaching digital skills and computer skills at a fordable price.
+                       </h1>
                     </div>
                 </div>
             </div>
@@ -134,7 +142,7 @@
                           </div>
                                       
                           <div class="">
-                            <a class="btn btn-custom-outline" href="#"><span>get started</span></a>
+                            <a class="btn btn-custom-outline" href="signin.php"><span>get started</span></a>
                           </div>
                         </div>
                     </article>

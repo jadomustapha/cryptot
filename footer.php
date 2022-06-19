@@ -30,6 +30,7 @@
                                     <li>Computers</li>
                                     <li>Mobile Apps</li>
                                     <li>Web Applications</li>
+                                    <li>Electronic Devices</li>
                                 </ul>
                             </div>
                         </p>

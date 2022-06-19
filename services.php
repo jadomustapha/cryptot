@@ -36,22 +36,37 @@
         background: teal;
         border-radius:6px;
     }
-    @media screen and (max-width:990px) {
-        #bs-example-navbar-collapse-1 .navbar-nav li{
-            background: #000;
-        }
-        #bs-example-navbar-collapse-1 .navbar-nav li a h3{
-            color:white;
-        }
-        
+    .main-card{
+        display: flex;
+        flex:1;
+        justify-content:space-between;
+        padding: 2rem 2rem;
     }
-    @media screen and (max-width:750) {
-         .home-products{
-            /* display: grid;
-            grid-template-columns: 1fr;
-            grid-gap: 3; */
+       .main-card .card{ margin:5px;background:rgba(0,0,10,.5);}
+       .main-card .card .card-content{
+           margin:auto;
+           width:90%;
+           margin-top:10px;
+           /* background: #000; */
+           font-family: sans serif;
+           height: 30vh;
         }
-    }
+        /* .card .card-footer{
+            position: absolute;
+            bottom:0px;
+            margin:auto;
+        } */
+        @media screen and (max-width:990px) {
+            #bs-example-navbar-collapse-1 .navbar-nav li{
+                background: #000;
+            }
+            #bs-example-navbar-collapse-1 .navbar-nav li a h3{
+                color:white;
+            }
+            
+        }
+
+    .card:hover { background: rgba(0,0,10,.8);}
 </style>
 </head>
 <body >
@@ -74,8 +89,6 @@
 
     <!-- [NAV]
     ============================================================================================================================-->    
-    <!-- Navigation
-        ==========================================-->
         
             <?php require_once "navbar.php"; ?>
 
@@ -86,20 +99,99 @@
     ============================================================================================================================--> 
     <section class="main-heading" id="home">
         <div class="overlay" style="background-image:url(./images/globe.jpg);">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-sm-8 text-center">
-                        <h1 class="main-heading-title"><span class="main-element themecolor" data-elements="Oline Services, Buy your Products, We are here for you"></span></h1>
-                        <h1 class="main-heading-title"><span class="main-element themecolor" data-elements="Crypto Technology Center,CTC"></span></h1>
-                        <p class="main-heading-text">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,<br/>cum soluta nobis est eligendi optio cumque nihil impedit quo facilis</p>
-                
-                        <div class="btn-bar">
-                        <a href="signin.php" class="btn btn-custom theme_background_color">Ge Started</a>
-                        <a href="#" class="btn btn-custom-outline">Contact Us</a>
-                        </div>
+            <div class="main-card" style="margin:auto;">
+                <div class="card" style="width:60vh;height:40vh; border-radius:5px; position:relative;">
+                    <div class="card-content">
+                        <h2>PC Maintenance</h2>
+                        <p>
+                            We provide maintenance to computer 
+                        </p>
                     </div>
-                    <div class="col-md-4 col-sm-4 text-center" >
-                       <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, beatae.</h1>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-primary" style="width:90%;">Apply Now</a>
+                    </div>
+                </div>
+                <div class="card" style="width:60vh;height:40vh; border-radius:5px; position:relative;">
+                    <div class="card-content">
+                        <h2>Internations</h2>
+                        <p>
+                            We provide maintenance to computer 
+                        </p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-primary" style="width:90%;">Apply Now</a>
+                    </div>
+                </div>
+                <div class="card" style="width:60vh;height:40vh; border-radius:5px; position:relative;">
+                    <div class="card-content">
+                        <h2>Video graphy</h2>
+                        <p>
+                            We provide maintenance to computer 
+                        </p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-primary" style="width:90%;">Apply Now</a>
+                    </div>
+                </div>
+                <div class="card" style="width:60vh;height:40vh; border-radius:5px; position:relative;">
+                    <div class="card-content">
+                        <h2>Photo Editting</h2>
+                        <p>
+                            We provide maintenance to computer 
+                        </p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-primary" style="width:90%;">Apply Now</a>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- other section of services -->
+ <div class="main-card" style="margin:auto;">
+             <div class="card" style="width:60vh;height:40vh; border-radius:5px; position:relative;">
+                    <div class="card-content">
+                        <h2>Programming</h2>
+                        <p>
+                            We provide maintenance to computer 
+                        </p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-primary" style="width:90%;">Apply Now</a>
+                    </div>
+                </div>
+  
+           <div class="card" style="width:60vh;height:40vh; border-radius:5px; position:relative;">
+                    <div class="card-content">
+                        <h2>Irembo services</h2>
+                        <p>
+                            We provide maintenance to computer 
+                        </p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-primary" style="width:90%;">Apply Now</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width:60vh;height:40vh; border-radius:5px; position:relative;">
+                    <div class="card-content">
+                        <h2>Home taxes</h2>
+                        <p>
+                            We provide maintenance to computer 
+                        </p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-primary" style="width:90%;">Apply Now</a>
+                    </div>
+                </div>
+                <div class="card" style="width:60vh;height:40vh; border-radius:5px; position:relative;">
+                    <div class="card-content">
+                        <h2>PC Maintenance</h2>
+                        <p>
+                            We provide maintenance to computer 
+                        </p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="#" class="btn btn-primary" style="width:90%;">Apply Now</a>
                     </div>
                 </div>
             </div>
